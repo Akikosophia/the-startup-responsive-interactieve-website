@@ -260,6 +260,7 @@ input  {
     padding: 5px 5px 5px 125px;
     background-color: var(--form-color);
     border: none;
+    width: 100%
 }
 
 textarea {
