@@ -2,6 +2,21 @@
 
 # Informaat Landingspagina 
 
+Screenshots:
+
+Inhoudsopgave:
+
+Opdrachtgever: Egor Kloos
+
+Ontwerpprobleem en oplossing:
+
+Gebruik van de website:
+
+Kenmerken met technische opzet en belangrijke onderdelen:
+
+checklist wel of niet gelukt:
+
+
 Contactgegevens
 * Bedrijf: Informaat
 * Naam begeleider: Egor Kloos
