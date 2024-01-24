@@ -34,7 +34,7 @@
  <h2 class="title-two">Hoe doen we dat?</h2>
 
     <ul class="list-how-we-do">
-      <li>Door snel ideeën te visualiseren en toetsen in de praktijk.</li>
+       <li>Door snel ideeën te visualiseren en toetsen in de praktijk.</li>
       <li>In een sterk veranderende wereld doe je er verstandig aan te
         expliciteren waar je als organisatie voor staat en welke drijfveren je
         deelt met je doelgroep. Vervolgens vertaal je deze waarden</li>
@@ -114,17 +114,17 @@
     </ul>
 
 
-    <img
-      class="photo-presentation-office"
-      src="assets/Rectangle 104-3.jpg"
-      alt="photo-presentation-office"
-    />
+
 
 </article>
-
+<img
+class="photo-presentation-office"
+src="assets/Rectangle 104-3.jpg"
+alt="photo-presentation-office"
+/>
 
 <article class="container-three">
-    <!-- <div class="container-approach"> -->
+
     <div class="separator-photo"></div>
 
     <h2>Wat je van ons krijgt</h2>
@@ -237,7 +237,7 @@
 </article>
 
 
-<article>
+<article class="container-five-one">
 
     <h3>Uitdaging</h3>
     <p>
@@ -273,10 +273,6 @@
     </ul>
 
 </article>
-
-<!-- <h2>Dit is hoe we beginnen</h2>
-<h3>Korte verkenning</h3>
-<p>We verkennen samen met jou de uitdaging en kiezen het ambitieniveau.</p>  -->
 
 <article class="container-six">
     
@@ -315,29 +311,14 @@
     <h3>Wat kost dat?</h3>
 
     <p>Dat is afhankelijk van scope en diepgang. Doorgaans is de prijsrange:</p>
-    <ul class="pricerange">
-      <li>8 dagen € 27.000,-</li>
-      <li>8 weken € 99.500,-</li>
-      <li>12 weken € 145.000,-</li>
-    </ul> 
+    <div class="pricerange">
+      <p><span>8 dagen € 27.000,-</span></p>
+      <p><span>8 weken € 99.500,-</span></p>
+      <p><span>12 weken € 145.000,-</span></p>
+    </div> 
 
 </article>
 
- 
-    <!-- <h3>Scope en diepgang</h3>
-    <p>
-      Vervolgens bepalen we samen de scope en diepgang voor elke fase van het
-      ontwerpproces. We stellen een plan van aanpak op en maken een offerte.
-      Alles helder en akkoord? Let’s hit the ground running!
-    </p>
-
-    <h3>Wat kost dat?</h3>
-    <p>Dat is afhankelijk van scope en diepgang. Doorgaans is de prijsrange:</p>
-    <ul class="pricerange">
-      <li>8 dagen € 27.000,-</li>
-      <li>8 weken € 99.500,-</li>
-      <li>12 weken € 145.000,-</li>
-    </ul>  -->
 <article class="container-seven">
 
     <div>
@@ -347,25 +328,20 @@
     en we nemen contact met je op. 
     
     <form action="form" method="post">
-        <ul>
-          <li>
+       
             <label for="name">Name</label>
             <input type="name" id="name" name="user_name" required="name" />
-          </li>
-          <li>
+         
             <label for="mail">Email</label>
             <input type="email" id="mail" name="user_email" required="email"/>
-          </li>
-          <li>
+        
             <label for="msg">Message</label>
             <textarea id="msg" name="user_message"></textarea>
-          </li>
-        </ul>
-    
+       
+            <fieldset> 
+                <label for="checkbox"><input type="checkbox" id="checkbox" name="checkbox" value="privacy-statement" required="checkbox"><label>
 
-        <label for="checkbox"><p><input type="checkbox" id="checkbox" name="checkbox"  value="privacy-statement" required="checkbox">Ik ga ermee akkoord dat Informaat
-            mijn gegevens verwerkt. Naar ons <a href="https://informaat.nl/nl/privacy-statement/">privacy statement.</p></a></label> 
-
+            <p class="privacy-text">Ik ga ermee akkoord dat Informaat mijn gegevens verwerkt. Naar ons <a href="https://informaat.nl/nl/privacy-statement/">privacy statement.</a></p>
   
     <div class="button-send">
         <button type="submit"> verstuur </button>
@@ -384,14 +360,14 @@
       alt="photo-Susanne-van-Mulken">
 
       <h3>Susanne van Mulken</h3>
-      <ul class="contact-details-susanne">
-        <li>Strategy & Delivery</li>
-        <li>+31 642 13 92 39</li>
-        <li>Susanne.van.mulken@informaat.nl </li>
-        <li><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" class="linkedin">
+      <div class="contact-details-susanne">
+        <p><span>Strategy & Delivery</span></p>
+        <p><span>+31 642 13 92 39</span></p>
+        <p><span>Susanne.van.mulken@informaat.nl </span></p>
+        <p><span><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" class="linkedin">
            <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
-       </svg> Susannevanmulken</li>
-       </ul>
+       </svg> Susannevanmulken</span></p>
+    </div>
     </div> 
 </article>
     
