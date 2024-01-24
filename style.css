@@ -317,7 +317,7 @@ h4 {
     cursor: pointer;
     text-align: center;
     position: absolute;
-    top: 4135px;
+    top: 4260px;
     left: 0;
 }
 
@@ -334,7 +334,7 @@ h4 {
     cursor: pointer;
     text-align: center;
     position: absolute;
-    top: 4135px;
+    top: 4260px;
     left: 255px;
 }
 
@@ -472,13 +472,13 @@ footer .logo-informaat {
     
     .container-five .left-button {
     position: absolute;
-    top: 3970px;
+    top: 4080px;
     left: 0;
     }
 
     .container-five .right-button {
         position: absolute;
-        top: 3970px;
+        top: 4080px;
         left: 305px;
     }
 
@@ -490,6 +490,15 @@ footer .logo-informaat {
         padding: 0px 0px 0px 140px;
     } 
     
+    #checkbox {
+        margin-left: -160px;
+        margin-top: 5px;
+    }
+        
+    .privacy-text {
+        margin-top: -29px;
+        margin-left: -2px;
+    }
 
 }
 
@@ -501,17 +510,22 @@ footer .logo-informaat {
     
     .container-five .left-button {
        position: absolute;
-       top: 3820px;
+       top: 3980px;
        left: 0;
     }
 
     .container-five .right-button {
         position: absolute;
-        top: 3820px;
+        top: 3980px;
         left: 355px;
     }
      
-
+    #checkbox {
+        margin-left: -185px;
+        margin-top: 5px;
+    }
+    
+   
 }
 
 @media (min-width:768px) {
@@ -539,6 +553,7 @@ footer .logo-informaat {
     .subtitle {
         text-align: left;
         padding-left: 20px;
+        padding-top: 20px
     }
 
     .text-approach {
@@ -553,13 +568,13 @@ footer .logo-informaat {
     
     .container-five .left-button {
         position: absolute;
-        top: 3750px;
+        top: 3830px;
         left: 0;
      }
  
      .container-five .right-button {
          position: absolute;
-         top: 3750px;
+         top: 3830px;
          left: 695px;
      }
     
@@ -608,6 +623,12 @@ footer .logo-informaat {
         width: 100%;
         height: auto;
     }
+    
+    #checkbox {
+        margin-left: -165px;
+        margin-top: 5px;
+    }
+    
 }
 
 @media (min-width:1024px) {
@@ -625,12 +646,19 @@ footer .logo-informaat {
         width: 100%;
         height: 100%;
     }
+
+    .subtitle {
+        /* text-align: left;
+        padding-left: 20px; */
+        padding-top: 20px
+    }
     
     article.container {
         display: grid;
         grid-template-columns: 2fr 2fr;
         grid-template-rows: repeat(1, max-content);
         grid-auto-flow: row;
+      
         /* display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(4, max-content);
@@ -658,19 +686,28 @@ footer .logo-informaat {
         display: grid;
         /* grid-template-columns: 2fr 2fr; */
         grid-auto-flow: column;
+    
     }
 
     article.container-three {
         display: grid;
         grid-template-columns: 2fr 2fr;
         grid-auto-flow: column;
+       
     }
 
     .container-three {
         background-color: var(--secundarycolor);
         margin-bottom: -20px;
+       
      }
 
+
+     .container-four {
+        margin-bottom: -20px;
+    
+      
+     } 
      
     .separator-photo::before {
         left: 1005px;
@@ -678,23 +715,37 @@ footer .logo-informaat {
     
     .container-five .left-button {
         position: absolute;
-        top: 4300px;
+        top: 2400px;
         left: 0;
      }
  
      .container-five .right-button {
          position: absolute;
-         top: 4300px;
+         top: 2400px;
          left: 955px;
      }
      
-
+     #checkbox {
+        margin-left: -230px;
+        margin-top: 5px;
+    }
 
 }
 
 
 @media (min-width:1440px) {
-
+  
+    /* body {
+        min-width: 1280px;
+        background-color: var(--main-color);
+    } */
+    
+       
+    .title-project {
+        /* text-align: left;
+        padding-left: 20px; */
+        padding-top: 20px
+    }
 
     header {
         display: grid;
@@ -704,22 +755,58 @@ footer .logo-informaat {
         width: 100%;
         height: 100%;
     }
-     
+    
+    .illustration {
+       object-fit: cover;
+       margin-bottom: 20px;
+    }
+
     .separator-photo::before {
         left: 1420px;
     }
     
     .container-five .left-button {
         position: absolute;
-        top: 5000px;
+        top: 2500px;
         left: 0;
      }
  
      .container-five .right-button {
          position: absolute;
-         top: 5000px;
+         top: 2500px;
          left: 1370px;
      }
+    
+     #checkbox {
+        margin-left: -335px;
+        margin-top: 5px;
+    }
+     
+}
 
+@media (min-width:1750px) {
+
+    
+    .title-project {
+        /* text-align: left;
+        padding-left: 20px; */
+        padding-top: 20px
+    }
+    .container-five .left-button {
+        position: absolute;
+        top: 2500px;
+        left: 0;
+     }
+ 
+     .container-five .right-button {
+         position: absolute;
+         top: 2500px;
+         left: 1370px;
+     }
+    
+     #checkbox {
+        margin-left: -480px;
+        margin-top: 5px;
+    }
      
 }
