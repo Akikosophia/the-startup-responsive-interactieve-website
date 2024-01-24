@@ -68,12 +68,12 @@ p {
 
 .container-one {
     background-color: var(--main-color);
-    margin: -5px;
+
 }
 
 .container-two {
     background-color: var(--primarycolor);
-    margin: -10px;
+    /* margin: -10px; */
     padding-left: 5px;
 }
 
@@ -103,6 +103,7 @@ p {
 } 
      
 ul li {
+   list-style-type: none;
    padding-left: 40px;
    padding-top: 5px;
    padding-right: 15px;
@@ -178,7 +179,6 @@ blockquote {
  .photo-presentation-office {
     width: 100%;
     height: auto;
-    padding-top: 10px;
 } 
 
 .separator-photo {
@@ -518,40 +518,13 @@ footer .logo-informaat {
 
     .header-illustration {
         width: 100%;
-        padding-left: 35px;
+        height: min-content;
     }
 
     .separator-illustration::before {
         width: 20%;
         height: 110%;
     }
-
-    h1 {
-     font-size: 45px;
-     padding-left: 20px;
-     padding-right: 15px;
-     padding-top: 30px;
-    } 
-
-    h2 {
-       font-size: 30px;
-    }
-    
-    h3, h4 {
-        padding-top: 30px;
-        font-size: 25px;
-        padding-bottom: 10px;
-    }
-
-    p {
-       padding-top: 10px;
-       padding-bottom: 10px;
-       font-size: 20px;
-    }
-
-    ul li {
-       font-size: 20px;
-     }
  
     .photo-men {
         width: 100%;
@@ -638,6 +611,66 @@ footer .logo-informaat {
 }
 
 @media (min-width:1024px) {
+    
+  
+    h1 {
+     margin-top: 40px;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 5fr 5fr 1fr ;
+        grid-template-rows: repeat(1, max-content);
+        grid-auto-flow: column;
+        width: 100%;
+        height: 100%;
+    }
+    
+    article.container {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: repeat(1, max-content);
+        grid-auto-flow: row;
+        /* display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, max-content);
+        grid-auto-flow: row;
+        */
+    }
+    
+    .illustration {
+        margin-top: 40px;
+    }
+
+    .photo-men {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .photo-presentation-office {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    article.container-two {
+        display: grid;
+        /* grid-template-columns: 2fr 2fr; */
+        grid-auto-flow: column;
+    }
+
+    article.container-three {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-auto-flow: column;
+    }
+
+    .container-three {
+        background-color: var(--secundarycolor);
+        margin-bottom: -20px;
+     }
+
      
     .separator-photo::before {
         left: 1005px;
@@ -661,6 +694,16 @@ footer .logo-informaat {
 
 
 @media (min-width:1440px) {
+
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr 1fr;
+        grid-template-rows:8;
+        grid-auto-flow: column;
+        width: 100%;
+        height: 100%;
+    }
      
     .separator-photo::before {
         left: 1420px;
