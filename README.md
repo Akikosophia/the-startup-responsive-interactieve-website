@@ -48,6 +48,7 @@ De gebruikers van het eindresultaat zijn voornamelijk grote bedrijven die een we
 Relatie met andere projecten
 De landingspagina staat in relatie met de hoofdwebsite en andere landingspagina's, vandaar dat het ontwerp niet al teveel moet afwijken van het origineel zodat dit passend blijft bij de rest.
 
+Wij mogen voor dit project de gebruiksrechten van Informaat gebruiken
 
 ## Licentie
 
