@@ -2,7 +2,9 @@
 
 # Informaat Landingspagina 
 
-Screenshots: 
+Screenshots:
+![akikosophia github io_the-startup-responsive-interactieve-website_ (2)](https://github.com/Akikosophia/the-startup-responsive-interactieve-website/assets/144008863/e7726aeb-8b85-43f8-ad89-09b645134302)
+![akikosophia github io_the-startup-responsive-interactieve-website_](https://github.com/Akikosophia/the-startup-responsive-interactieve-website/assets/144008863/f773bd95-f198-4180-a7b5-aa97fac5f051)
 
 Inhoudsopgave:
 
