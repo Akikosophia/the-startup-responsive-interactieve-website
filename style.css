@@ -709,9 +709,9 @@ footer .logo-informaat {
       
      } 
      
-    .separator-photo::before {
-        left: 1005px;
-    }
+     .separator-photo::before {
+        display: none;
+    } 
     
     .container-five .left-button {
         position: absolute;
@@ -762,8 +762,9 @@ footer .logo-informaat {
     }
 
     .separator-photo::before {
-        left: 1420px;
-    }
+        display: none;
+    } 
+    
     
     .container-five .left-button {
         position: absolute;
@@ -803,6 +804,11 @@ footer .logo-informaat {
          top: 2500px;
          left: 1370px;
      }
+
+     .separator-photo::before {
+        display: none;
+    } 
+    
     
      #checkbox {
         margin-left: -480px;
